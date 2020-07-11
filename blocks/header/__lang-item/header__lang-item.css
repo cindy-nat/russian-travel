@@ -1,0 +1,7 @@
+.header__lang-item {
+display: inline;
+}
+
+.header__lang-item:nth-child(1){
+  margin-right: 18px;
+}
