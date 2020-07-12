@@ -8,3 +8,15 @@
 .place + .place {
   margin-top: 85px;
 }
+
+@media screen and (max-width:320px) {
+  .place {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 32px 0;
+    }
+
+    .place + .place {
+      margin-top: 35px;
+    }
+}

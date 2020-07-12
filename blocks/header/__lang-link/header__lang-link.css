@@ -10,3 +10,10 @@ text-decoration: none;
 .header__lang-link:hover{
   opacity: 70%;
 }
+
+@media screen and (max-width:320px) {
+  .header__lang-link {
+    font-size: 18px;
+line-height: 24px;
+  }
+}

@@ -32,3 +32,9 @@
   align-items: center;
   text-rendering: optimizeLegibility;
 }
+
+@media screen and (max-width:320px) {
+  .page {
+    flex-wrap: nowrap;
+  }
+}
