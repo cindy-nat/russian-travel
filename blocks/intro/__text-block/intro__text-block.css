@@ -1,0 +1,7 @@
+.intro__text-block {
+  max-width: 690px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-content: flex-start;
+}
