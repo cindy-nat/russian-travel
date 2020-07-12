@@ -1,5 +1,4 @@
 .intro {
   max-width: 690px;
-  position: relative;
-  transform: translateX(-20%);
+  align-self: flex-start;
 }
