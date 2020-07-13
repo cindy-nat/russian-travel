@@ -6,7 +6,13 @@
   align-items: center;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
+  .footer {
+    width: 90.7%;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .footer {
     width: 93.7%;
   }

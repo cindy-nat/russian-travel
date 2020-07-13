@@ -9,16 +9,24 @@
   margin-top: 85px;
 }
 
+@media screen and (max-width:1024px) {
+  .place {
+    grid-template-columns: 440px 456px;
+    gap: 40px 32px;
+    }
+  }
+
 @media screen and (max-width:768px) {
   .place {
     grid-template-columns: 340px 352px;
     gap: 45px 28px;
     }
-  }
+
 
   .place + .place {
     margin-top: 72px;
   }
+}
 
 @media screen and (max-width:320px) {
   .place {
