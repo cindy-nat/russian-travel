@@ -7,7 +7,6 @@
   align-items: center;
   justify-content: center;
   background-color: #2a2c2f;
-  position: relative;
 }
 
 @media screen and (max-width: 1024px) {
