@@ -8,8 +8,14 @@
   }
 }
 
+@media screen and (max-width:768px) {
+  .page__places {
+    margin: 95px auto;
+  }
+}
+
 @media screen and (max-width:320px) {
   .page__places {
-    margin: 70px 0 50px;
+    margin: 70px 0 60px;
   }
 }

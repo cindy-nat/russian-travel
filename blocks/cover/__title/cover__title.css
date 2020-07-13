@@ -8,6 +8,7 @@ color: #FFFFFF;
 max-width: 560px;
 z-index: 1;
 margin: 0 0 25px;
+padding: 0;
 }
 
 @media screen and (max-width:768px) {
@@ -21,6 +22,6 @@ margin-bottom: 30px;
   font-size: 32px;
 line-height: 35px;
 margin-bottom: 16px;
-width: 90%;
+width: 75%;
   }
 }

@@ -8,6 +8,13 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .page__footer {
+    margin: 85px 0 24px 0;
+  }
+}
+
+
 @media screen and (max-width: 320px) {
   .page__footer {
     margin: 64px 0 24px 0;

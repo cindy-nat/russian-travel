@@ -24,18 +24,20 @@
 
 
   .place + .place {
-    margin-top: 72px;
+    margin-top: 75px;
   }
 }
 
 @media screen and (max-width:320px) {
   .place {
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
-    gap: 32px 0;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .place:first-of-type {
+      margin-bottom: 42px;
     }
 
     .place + .place {
-      margin-top: 35px;
-    }
-}
+      margin-top: 55px;
+    }}
