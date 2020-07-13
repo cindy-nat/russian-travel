@@ -12,6 +12,12 @@
     width: 90.7%;  }
 }
 
+@media screen and (max-width:768px) {
+  .lead {
+    width: 100%;
+    }
+}
+
 @media screen and (max-width:320px){
 .lead {
   width: 100%;  }

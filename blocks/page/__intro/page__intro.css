@@ -2,6 +2,12 @@
   margin: 95px auto;
 }
 
+@media screen and (max-width:768px) {
+  .page__intro {
+    margin: 92px 0;
+  }
+}
+
 @media screen and (max-width:320px) {
   .page__intro {
     margin: 64px 0;
