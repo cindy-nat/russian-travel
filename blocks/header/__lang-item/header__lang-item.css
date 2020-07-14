@@ -1,7 +1,8 @@
 .header__lang-item {
-display: inline;
+display: flex;
+margin-right: 18px;
 }
 
-.header__lang-item:nth-child(1){
-  margin-right: 18px;
+.header__lang-item:last-child{
+  margin-right: 0;
 }
