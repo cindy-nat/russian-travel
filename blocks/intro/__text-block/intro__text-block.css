@@ -5,3 +5,9 @@
   justify-content: start;
   align-content: flex-start;
 }
+
+@media screen and (max-width: 768px) {
+  .intro__text-block {
+  max-width: 100%;
+  }
+}
