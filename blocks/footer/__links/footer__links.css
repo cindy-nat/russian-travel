@@ -8,7 +8,7 @@
 @media screen and (max-width: 320px) {
   .footer__links {
     flex-direction: column;
-    height: 248px;
+    min-height: 248px;
     justify-content: space-between;
  }
 }
