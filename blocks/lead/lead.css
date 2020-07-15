@@ -1,14 +1,13 @@
 .lead {
-  width: 65%;
+  width: 77%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  max-width: 984px;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1148px) {
   .lead {
     width: 90.7%;  }
 }
@@ -17,4 +16,8 @@
   .lead {
     width: 100%;
     }
+}
+
+* {
+  border: 1px solid red;
 }
