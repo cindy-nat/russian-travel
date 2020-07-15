@@ -14,6 +14,9 @@
     grid-template-columns: 440px auto;
     gap: 40px 32px;
     }
+    .place + .place {
+      margin-top: 90px;
+    }
   }
 
 @media screen and (max-width:768px) {
@@ -24,7 +27,7 @@
 
 
   .place + .place {
-    margin-top: 75px;
+    margin-top: 80px;
   }
 }
 
