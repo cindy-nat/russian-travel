@@ -1,0 +1,23 @@
+.arrow-container {
+  background-color: #323537;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 1.17;
+  padding-top: 5px;
+  opacity: .4;
+  color: black;
+  display: none;
+}
+
+.arrow-container:hover {
+  cursor: pointer;
+  opacity: .2;
+}
